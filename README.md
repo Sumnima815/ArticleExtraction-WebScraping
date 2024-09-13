@@ -43,10 +43,10 @@ Handles network errors and missing data gracefully.
 
 ## Project Structure
 
-.
-├── 101.py                  # Main script that runs the scraper
-├── data_links.csv          # CSV file containing all extracted URLs
-├── kathmandu.csv           # CSV file containing article data
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies for the project
+
+101.py  :                 # Main script that runs the scraper
+data_links.csv    :       # CSV file containing all extracted URLs
+kathmandu.csv :           # CSV file containing article data
+README.md    :            # Project documentation requirements.txt  
+requirements.txt          # Python dependencies for the project
 
