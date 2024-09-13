@@ -20,6 +20,33 @@ Saves both the list of URLs and the extracted article data to CSV files.
 Handles network errors and missing data gracefully.
 
 ## Installation
-1. Clone the repository :
-2. Navigate to project directory:
-3. Install the required dependencies: 
+1. Clone the repository : git clone https://github.com/Sumnima815/ArticleExtraction-WebScraping.git
+   
+2. Navigate to project directory: cd News-Scraper
+
+3. Install the required dependencies: pip install -r requirements.txt
+
+## Usage 
+1. Run the scraper:
+   python 101.py
+
+2. The scraper will:
+   Fetch all links from the Kathmandu Post homepage.
+   Filter out social media links.
+   Extract the heading, author, publication date, and body content from valid articles.
+   Save the links in data_links.csv and the extracted article content in kathmandu.csv.
+
+   
+3. CSV output :
+   data_links.csv : Contains list of extracted links.
+   kathmandu.csv : Contains extracted article data with fields such as heading, author, date      and content.
+
+## Project Structure
+
+.
+├── 101.py                  # Main script that runs the scraper
+├── data_links.csv          # CSV file containing all extracted URLs
+├── kathmandu.csv           # CSV file containing article data
+├── README.md               # Project documentation
+├── requirements.txt        # Python dependencies for the project
+
