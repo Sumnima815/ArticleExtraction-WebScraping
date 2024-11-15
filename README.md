@@ -2,10 +2,10 @@ The python project automates the extraction of news article from the Kathmandu P
 The script scrapes the homepage for article links, filters out irrelevant URLs and extracts essential contentsuch as heading, author, publication date, and body text. The extracted data is saved into CSV files for easy access and analysis.
 
 
-## Introduction
+Introduction
 This project demonstrates the process of web scraping by targeting a news website, Kathmandu Post. It extracts links from the homepage, filters social media URLs, and processes only valid news article URLs. The final extracted data, including headings, authors, publication dates, and content, is saved into a CSV file for further analysis.
 
-##Features
+Features
 
 Scrapes all article links from the homepage of Kathmandu Post.
 Filters out social media and invalid URLs.
@@ -14,7 +14,7 @@ Saves both the list of URLs and the extracted article data to CSV files.
 Handles network errors and missing data gracefully.
 
 
-## Usage 
+Usage 
 1. Run the scraper:
    python 101.py
 
@@ -29,7 +29,7 @@ Handles network errors and missing data gracefully.
    data_links.csv : Contains list of extracted links.
    kathmandu.csv : Contains extracted article data with fields such as heading, author, date      and content.
 
-## Project Structure
+Project Structure
 
 
 101.py  :                 # Main script that runs the scraper
